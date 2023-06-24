@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Pelatihan VSGA 2023 - Bootstrap</title>
+  </head>
+  <body style="background-color: #c2dedc">
+    <div class="container justify-content-center d-flex mt-5">
+      <div class="card border-dark">
+        <p class="text-center">Form Pendaftaran VSGA 2023</p>
+        <div class="card-body">
+          <form>
+            <div class="row g-3">
+              <div class="col">
+                <label for="nama-awal" class="form-label">Nama Awal</label>
+                <input type="text" id="nama-awal" name="awal" class="form-control border-dark border-opacity-100" placeholder="First name" aria-label="First name" />
+              </div>
+              <div class="col">
+                <label for="nama-akhir" class="form-label">Nama Akhir</label>
+                <input type="text" id="nama-akhir" name="akhir" class="form-control border-dark border-opacity-100" placeholder="Last name" aria-label="Last name" />
+              </div>
+              <div class="col-12">
+                <label for="telepon" class="form-label">Nomor Telepon</label>
+                <input type="tel" name="telepon" id="telepon" class="form-control border-dark border-opacity-100" />
+              </div>
+              <div class="col-12">
+                <label for="asal-kampus" class="form-label">Asal Kampus</label>
+                <input type="text" id="asal-kampus" name="kampus" class="form-control border-dark border-opacity-100" placeholder="Universitas AMIKOM Yogyakarta" aria-label="Asal Kampus" />
+              </div>
+              <div class="col-12">
+                <label for="alamat">Alamat</label>
+                <input type="text" id="alamat" name="alamat" class="form-control border-dark border-opacity-100" placeholder="Jalan Ring Road Utara" aria-label="Alamat" />
+              </div>
+              <div class="col-12">
+                <fieldset class="row mb-3">
+                  <legend class="col-form-label col-sm-2 pt-0">Jurusan</legend>
+                  <div class="col-sm-10">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked />
+                      <label class="form-check-label" for="gridRadios1"> Informatika </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2" />
+                      <label class="form-check-label" for="gridRadios2"> Teknik Informatika </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" />
+                      <label class="form-check-label" for="gridRadios3"> Sistem Informasi </label>
+                    </div>
+                  </div>
+                </fieldset>
+              </div>
+            </div>
+            <button class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
