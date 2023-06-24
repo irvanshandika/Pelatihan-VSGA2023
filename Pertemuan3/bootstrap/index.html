@@ -9,49 +9,48 @@
   </head>
   <body style="background-color: #c2dedc">
     <div class="container justify-content-center d-flex mt-5">
-      <div class="card border-dark">
-        <p class="text-center">Form Pendaftaran VSGA 2023</p>
+      <div class="card border-dark shadow-lg">
+        <p class="text-center mt-3">Form Pendaftaran VSGA 2023</p>
         <div class="card-body">
           <form>
             <div class="row g-3">
-              <div class="col">
-                <label for="nama-awal" class="form-label">Nama Awal</label>
-                <input type="text" id="nama-awal" name="awal" class="form-control border-dark border-opacity-100" placeholder="First name" aria-label="First name" />
-              </div>
-              <div class="col">
-                <label for="nama-akhir" class="form-label">Nama Akhir</label>
-                <input type="text" id="nama-akhir" name="akhir" class="form-control border-dark border-opacity-100" placeholder="Last name" aria-label="Last name" />
+              <div class="col-12">
+                <label for="nama" class="form-label">Nama</label>
+                <input type="text" id="nama" name="nama" class="form-control border-dark border-opacity-100" aria-label="name" />
               </div>
               <div class="col-12">
-                <label for="telepon" class="form-label">Nomor Telepon</label>
-                <input type="tel" name="telepon" id="telepon" class="form-control border-dark border-opacity-100" />
+                <label class="form-label">Jenis Kelamin:</label>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+                  <label class="form-check-label" for="flexRadioDefault1"> Laki-laki </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" />
+                  <label class="form-check-label" for="flexRadioDefault2"> Perempuan </label>
+                </div>
               </div>
               <div class="col-12">
                 <label for="asal-kampus" class="form-label">Asal Kampus</label>
-                <input type="text" id="asal-kampus" name="kampus" class="form-control border-dark border-opacity-100" placeholder="Universitas AMIKOM Yogyakarta" aria-label="Asal Kampus" />
+                <input type="text" id="asal-kampus" name="kampus" class="form-control border-dark border-opacity-100" aria-label="Asal Kampus" />
               </div>
               <div class="col-12">
                 <label for="alamat">Alamat</label>
-                <input type="text" id="alamat" name="alamat" class="form-control border-dark border-opacity-100" placeholder="Jalan Ring Road Utara" aria-label="Alamat" />
+                <input type="text" id="alamat" name="alamat" class="form-control border-dark border-opacity-100" aria-label="Alamat" />
               </div>
               <div class="col-12">
-                <fieldset class="row mb-3">
-                  <legend class="col-form-label col-sm-2 pt-0">Jurusan</legend>
-                  <div class="col-sm-10">
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked />
-                      <label class="form-check-label" for="gridRadios1"> Informatika </label>
-                    </div>
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2" />
-                      <label class="form-check-label" for="gridRadios2"> Teknik Informatika </label>
-                    </div>
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" />
-                      <label class="form-check-label" for="gridRadios3"> Sistem Informasi </label>
-                    </div>
-                  </div>
-                </fieldset>
+                <label for="combo-box" class="form-label">Jurusan</label>
+                <select class="form-select mb-3 border-black" aria-label="Default select example" id="combo-box">
+                  <option></option>
+                  <option value="1">Informatika</option>
+                  <option value="2">Teknik Informatika</option>
+                  <option value="3">Sistem Informasi</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-12 mb-3">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" />
+                <label class="form-check-label text-capitalize" for="flexCheckChecked"> Saya Menyetujui Seluruh Peraturan Yang Berlaku </label>
               </div>
             </div>
             <button class="btn btn-primary">Submit</button>
