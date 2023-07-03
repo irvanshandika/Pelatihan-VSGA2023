@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Buku</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Anggota</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Transaksi</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Laporan </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Laporan Buku</a></li>
+                <li><a class="dropdown-item" href="#">Laporan Anggota</a></li>
+                <li><a class="dropdown-item" href="#">Laporan Transaksi</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container mt-3">
+      <form action="">
+        <div class="mb-3 row">
+          <label for="judul" class="form-label col-lg-2">Judul</label>
+          <div class="col-lg-6">
+            <input type="text" name="judul" id="judul" class="form-control" />
+          </div>
+        </div>
+        <div class="mb-3 row">
+          <label for="pengarang" class="form-label col-lg-2">Pengarang</label>
+          <div class="col-lg-6">
+            <input type="text" name="pengarang" id="pengarang" class="form-control" />
+          </div>
+        </div>
+        <div class="mb-3 row">
+          <label for="penerbit" class="form-label col-lg-2">Penerbit</label>
+          <div class="col-lg-6">
+            <input type="text" name="penerbit" id="penerbit" class="form-control" />
+          </div>
+        </div>
+        <div class="mb-3 row">
+          <label for="tahun-terbit" class="form-label col-lg-2">Tahun Terbit</label>
+          <div class="col-lg-6">
+            <input type="text" name="tahun-terbit" id="tahun-terbit" class="form-control" />
+          </div>
+        </div>
+        <div class="mb-3 row">
+          <label for="isbn" class="form-label col-lg-2">ISBN</label>
+          <div class="col-lg-6">
+            <input type="text" name="isbn" id="isbn" class="form-control" />
+          </div>
+        </div>
+        <button class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    <a href="/" onclick="alert('watsap!')">Test</a>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script>
+      var harga = 9999;
+      console.log(harga);
+    </script>
+  </body>
+</html>
