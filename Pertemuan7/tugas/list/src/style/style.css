@@ -1,0 +1,33 @@
+body{
+    margin-top: 10rem;
+}
+
+.container {
+  border-radius: 3px;
+  width: 250px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #d2e9e9;
+}
+.menu-item {
+  cursor: pointer;
+}
+.selected {
+  background-color: green;
+  color: white;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+li:hover {
+  background-color: green;
+  color: white;
+}

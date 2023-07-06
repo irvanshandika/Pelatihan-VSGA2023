@@ -3,16 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Login - VSGA 2023</title>
+    <link rel="stylesheet" href="./src/style/style.css" />
   </head>
   <body>
-    <div class="card">
-      <div class="content">
-        <label for="username">Username</label>
-      </div>
+    <div class="container">
+      <form id="loginForm">
+        <div class="input-group">
+          <label for="username">Email</label>
+          <input type="text" id="username" name="username" required />
+        </div>
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <div class="input-group">
+          <button type="submit">Login</button>
+        </div>
+      </form>
     </div>
-
-    <script src="./index.js"></script>
+    <script src="./src/script/index.js"></script>
   </body>
 </html>
