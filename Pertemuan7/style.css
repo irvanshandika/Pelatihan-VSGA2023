@@ -1,0 +1,25 @@
+body {
+  background-color: yellow;
+}
+
+.judul {
+  background-color: orange;
+  color: blue;
+  text-align: center;
+}
+
+.website {
+  letter-spacing: 15px;
+  text-align: center;
+  color: green;
+  font-size: 20px;
+}
+.paragraf2 {
+    text-align: center;
+    color: red;
+}
+.akhir{
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+}
