@@ -26,7 +26,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center mt-5">
                     <h1>Daftar Anggota</h1>
-                    <a href="anggota-add.php" class="btn btn-primary mb-5 mt-4">Tambah Anggota</a>
+                    <a href="anggota-read.php" class="btn btn-primary mb-5 mt-4">Kembali</a>
                 </div>
             </div>
             <div class="row">
