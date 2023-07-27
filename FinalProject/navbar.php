@@ -8,6 +8,12 @@
 </head>
 
 <body>
+  <?php
+  session_start();
+  if ($_SESSION['sesi'] == null) {
+    header('Location: index.php');
+  }
+  ?>
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Simperpus</a>
@@ -37,6 +43,9 @@
             </ul>
           </li>
         </ul>
+        <div class="ml-auto">
+          <a href="logout.php" class="btn btn-outline-secondary"><i class="fa-solid fa-power-off"></i> Logout</a>
+        </div>
       </div>
     </div>
   </nav>
